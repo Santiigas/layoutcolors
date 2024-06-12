@@ -46,74 +46,27 @@ body{
 
 /*Sessão colorSettingUser ------------------ */
 
+#subtitle_colorSettingUser{
+    font-weight: 800;
+    font-size: 22px;
+  }  
+
 .colorSettingUser{
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
-}
-
-#subtitle_colorSettingUser{
-    font-weight: 800;
-    font-size: 22px;
-}
+  }  
 
 .chosenColors{
     display: flex;
     align-items: center;
     flex-direction: row;
     height: auto;
-    background-color: beige;
+    background-color: rgb(255, 255, 201);
     gap: 10px;
     padding-bottom: 25px;
-}
-
-.color{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-    background-color: rgb(255, 137, 137);
-    gap: 10px;
-}
-
-#mainTitleColor{
-    font-weight: 800;
-    font-size:15px;
-}
-
-.outsideCircle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 58px;
-    height: 58px;
-    background-color: rgb(52, 54, 41);
-    border-radius: 40px;
-}
-
-.insideCircle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 55px;
-    height: 55px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 40px;
-}
-
-.circle{
-    width: 52px;
-    height: 52px;
-    background-color: rgb(52, 54, 41);
-    border-radius: 40px;
-}
-
-.colorCode{
-    
-}
-
-
+  }
+  
 /*Sessão smallBrowseruser ------------------ */
 
 .smallBrowseruser{

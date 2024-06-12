@@ -1,0 +1,31 @@
+.color_configuration{
+  width: 140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  background-color: rgb(255, 238, 238);
+  gap: 10px;
+}
+
+#mainTitleColor{
+  font-weight: 800;
+  font-size:15px;
+}
+
+.colorPicker {
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.colorUser{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  padding: 5px;
+}
