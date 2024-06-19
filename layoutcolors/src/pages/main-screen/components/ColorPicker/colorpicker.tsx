@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./colorpicker.css"
 
-const ColorPicker = () => {
+const ColorPicker = ({title}) => {
   const [color, setColor] = useState('#000000');
 
   const handleColorChange = (event) => {
@@ -11,7 +11,7 @@ const ColorPicker = () => {
 
   return (
     <div className="color_configuration">
-      <h1 id="mainTitleColor">Cor principal</h1>
+      <h1 id="mainTitleColor">{title}</h1>
         <input className='colorPicker'
           type="color"
           value={color}

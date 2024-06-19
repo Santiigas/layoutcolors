@@ -75,7 +75,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: rgb(46, 99, 146);
+    background-color: rgb(171, 215, 253);
 }
 
 .layoutArrow{
@@ -86,16 +86,6 @@ body{
 
 }
 
-.browserHeader{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    background-color: rgb(46, 99, 146);
-    width: 1000px;
-    height: 40px;
-}
 
 .browserBody{
     display: flex;
@@ -103,7 +93,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: rgb(85, 159, 224);
+    background-color: rgb(73, 147, 211);
     width: 1000px;
     height: 500px;
 }
