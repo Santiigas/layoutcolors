@@ -1,0 +1,18 @@
+:root{
+    --primeira-cor:#00AE9C;
+    --segunda-cor-texto:#62C3B3;
+    --terceira-cor:#F4FBF4;
+  }
+
+.browserBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius:0px 0px 20px 20px;
+    width: 900px;
+    height: 480px;
+    border: 6px solid var(--primeira-cor);
+}

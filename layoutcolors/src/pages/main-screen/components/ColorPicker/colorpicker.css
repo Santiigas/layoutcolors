@@ -1,3 +1,9 @@
+:root{
+  --primeira-cor:#00AE9C;
+  --segunda-cor-texto:#62C3B3;
+  --terceira-cor:#F4FBF4;
+}
+
 .color_configuration{
   width: 140px;
   display: flex;
@@ -5,27 +11,36 @@
   flex-direction: column;
   justify-content: center;
   height: auto;
-  background-color: rgb(255, 238, 238);
   gap: 10px;
 }
 
 #mainTitleColor{
   font-weight: 800;
   font-size:15px;
+  color: var(--segunda-cor-texto)
 }
 
 .colorPicker {
-  width: 40px;
-  height: 40px;
-  border: none;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.colorPicker {
+  width: 45px;
+  height: 45px;
   cursor: pointer;
-  padding: 0;
+  background: none;
 }
 
 .colorUser{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
+  width: 63px;
   padding: 5px;
+  font-weight: 600;
+  color: var(--primeira-cor);
+  border-bottom: 2px solid var(--primeira-cor);
+  background-color: var(--terceira-cor);
 }

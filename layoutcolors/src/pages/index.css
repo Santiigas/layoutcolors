@@ -17,16 +17,23 @@ body{
     align-items: center;
     justify-content: center;
     height: auto;
+    background-color: #F4FBF4;
+}
+
+:root{
+    --primeira-cor:#00AE9C;
+    --segunda-cor-texto:#62C3B3;
+    --terceira-cor:#F4FBF4;
 }
 
 /*Sessão layoutColors ------------------ */
 
 .layoutColors{
-    padding-top: 40px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     margin: auto;
-    background-color: aqua;
+    
 }
 
 .headerlayoutColors{
@@ -36,12 +43,14 @@ body{
 #mainTitle_layoutColors{
     font-weight: 900;
     font-size:35px;
+    color: var(--primeira-cor);
 }
 
 #subtitle_layoutColors{
     font-weight: 700;
     font-size:20px;
-    padding-bottom: 25px;
+    padding-bottom: 3cap;
+    color: var(--primeira-cor);
 }
 
 /*Sessão colorSettingUser ------------------ */
@@ -49,22 +58,24 @@ body{
 #subtitle_colorSettingUser{
     font-weight: 800;
     font-size: 22px;
+    padding-left: 50px;
+    color: var(--segunda-cor-texto);
   }  
 
 .colorSettingUser{
     display: flex;
     flex-direction: column;
-    background-color: aliceblue;
   }  
 
 .chosenColors{
+    padding-top: 7px;
     display: flex;
     align-items: center;
     flex-direction: row;
     height: auto;
-    background-color: rgb(255, 255, 201);
     gap: 10px;
     padding-bottom: 25px;
+    padding-left: 30px;
   }
   
 /*Sessão smallBrowseruser ------------------ */
@@ -75,7 +86,6 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: rgb(171, 215, 253);
 }
 
 .layoutArrow{
@@ -86,14 +96,21 @@ body{
 
 }
 
-
-.browserBody{
+.download{
+    padding-top: 20px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: auto;
-    background-color: rgb(73, 147, 211);
-    width: 1000px;
-    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.downloadBrowser{
+    width: 170px;
+    height: 45px;
+    color: var(--terceira-cor);
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    background-color: var(--segunda-cor-texto);
+    cursor: pointer;
 }

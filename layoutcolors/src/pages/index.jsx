@@ -1,6 +1,7 @@
 import "./index.css";
 import ColorPicker from "./main-screen/components/ColorPicker/colorpicker";
 import BrowserHeader from "./main-screen/components/BrowserHeader/browserheader";
+import BrowserBody from "./main-screen/components/BrowserBody/browserbody";
 
 function Home(){
     
@@ -22,9 +23,12 @@ function Home(){
                 <div className="layoutArrow"></div>
                 <div className="browserUser">
                     <BrowserHeader/>
-                    <div className="browserBody"></div>
+                    <BrowserBody/>
                 </div>
                 <div className="layoutArrow"></div>
+            </div>
+            <div className="download">
+                <button className="downloadBrowser">DOWNLOAD</button>
             </div>
         </div>
     )

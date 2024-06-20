@@ -1,3 +1,8 @@
+:root{
+    --primeira-cor:#00AE9C;
+    --segunda-cor-texto:#62C3B3;
+    --terceira-cor:#F4FBF4;
+  }
 
 .browserHeader{
     display: flex;
@@ -7,10 +12,11 @@
     margin: auto;
     background-color: rgb(255, 255, 255);
     border-radius:20px 20px 0px 0px;
-    width: 1000px;
+    width: 900px;
     height: 40px;
-    border: 0;
-    border: 4px solid #ccc;
+    border-top: 6px solid var(--primeira-cor);
+    border-right: 6px solid var(--primeira-cor);
+    border-left: 6px solid var(--primeira-cor);
 }
 
 #nameSiteUser{
@@ -21,4 +27,6 @@
     text-align: center;
     border: none;
     background-color: none;
+    color: var(--primeira-cor);
+    font-weight: 600;
 }
