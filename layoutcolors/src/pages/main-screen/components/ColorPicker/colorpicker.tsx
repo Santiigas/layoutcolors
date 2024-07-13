@@ -1,12 +1,17 @@
 import React, { useState } from 'react';
+import { useColors } from './colorcontext';
 import "./colorpicker.css"
 
-const ColorPicker = ({title}) => {
-  const [color, setColor] = useState('#000000');
+const ColorPicker = ({ title, colorKey }) => {
+  const { colors, setColors } = useColors();
+  const color = colors[colorKey];
 
   const handleColorChange = (event) => {
     const newColor = event.target.value;
-    setColor(newColor);
+    setColors((prevColors) => ({
+      ...prevColors,
+      [colorKey]: newColor,
+    }));
   };
 
   return (

@@ -1,7 +1,9 @@
 import "./index.css";
+import React from 'react';
 import ColorPicker from "./main-screen/components/ColorPicker/colorpicker";
 import BrowserHeader from "./main-screen/components/BrowserHeader/browserheader";
 import BrowserBody from "./main-screen/components/BrowserBody/browserbody";
+import { ColorProvider } from "../pages/main-screen/components/ColorPicker/colorcontext";
 
 function Home(){
     
@@ -14,9 +16,9 @@ function Home(){
             <div className="colorSettingUser">
                 <h1 id="subtitle_colorSettingUser">Selecione as cores:</h1>
                 <div className="chosenColors">
-                    <ColorPicker title="Cor principal"/>
-                    <ColorPicker title="Cor secundaria"/>
-                    <ColorPicker title="Cor terciária"/>
+                    <ColorPicker title="Cor principal" colorKey="color1"/>
+                    <ColorPicker title="Cor secundaria" colorKey="color2"/>
+                    <ColorPicker title="Cor terciária" colorKey="color3" />
                 </div>
             </div>
             <div className="smallBrowseruser">
