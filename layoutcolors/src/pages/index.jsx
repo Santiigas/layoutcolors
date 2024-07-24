@@ -1,9 +1,10 @@
-import "./index.css";
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import ColorPicker from "./main-screen/components/ColorPicker/colorpicker";
 import BrowserHeader from "./main-screen/components/BrowserHeader/browserheader";
 import BrowserBody from "./main-screen/components/BrowserBody/browserbody";
-import { ColorProvider } from "../pages/main-screen/components/ColorPicker/colorcontext";
+import { ColorProvider } from './main-screen/components/ColorPicker/colorcontext';
+import "./index.css";
 
 function Home(){
     
@@ -16,9 +17,11 @@ function Home(){
             <div className="colorSettingUser">
                 <h1 id="subtitle_colorSettingUser">Selecione as cores:</h1>
                 <div className="chosenColors">
+                <ColorProvider>
                     <ColorPicker title="Cor principal" colorKey="color1"/>
                     <ColorPicker title="Cor secundaria" colorKey="color2"/>
                     <ColorPicker title="Cor terciária" colorKey="color3" />
+                </ColorProvider>
                 </div>
             </div>
             <div className="smallBrowseruser">

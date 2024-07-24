@@ -21,9 +21,14 @@ body{
 }
 
 :root{
+    /*Cores da pagina*/
     --primeira-cor:#00AE9C;
     --segunda-cor-texto:#62C3B3;
     --terceira-cor:#F4FBF4;
+    /*Cores dos layots*/
+    --color-primary: #000000;
+    --color-secondary: #ffffff;
+    --color-highlight: #ff0000;
 }
 
 /*Sessão layoutColors ------------------ */

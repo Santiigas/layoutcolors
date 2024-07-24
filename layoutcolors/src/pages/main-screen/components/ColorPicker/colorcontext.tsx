@@ -1,4 +1,4 @@
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useContext, useEffect } from 'react';
 
 const ColorContext = createContext();
 
@@ -8,6 +8,13 @@ export const ColorProvider = ({ children }) => {
     color2: '#ffffff',
     color3: '#ff0000',
   });
+
+  useEffect(() => {
+    // Atualizar as variáveis CSS sempre que as cores mudarem
+    document.documentElement.style.setProperty('--color-primary', colors.color1);
+    document.documentElement.style.setProperty('--color-secondary', colors.color2);
+    document.documentElement.style.setProperty('--color-highlight', colors.color3);
+  }, [colors]);
 
   return (
     <ColorContext.Provider value={{ colors, setColors }}>
