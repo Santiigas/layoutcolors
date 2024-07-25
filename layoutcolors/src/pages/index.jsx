@@ -1,13 +1,28 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, { useRef } from 'react';
 import ColorPicker from "./main-screen/components/ColorPicker/colorpicker";
 import BrowserHeader from "./main-screen/components/BrowserHeader/browserheader";
 import BrowserBody from "./main-screen/components/BrowserBody/browserbody";
 import { ColorProvider } from './main-screen/components/ColorPicker/colorcontext';
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 import "./index.css";
 
-function Home(){
-    
+const Home = () => {
+    const browserBodyRef = useRef();
+
+    const downloadPDF = async () => {
+        const canvas = await html2canvas(browserBodyRef.current, {
+        scale: 2, // Aumenta a resolução
+        useCORS: true, // Caso tenha imagens externas
+        });
+
+        const imgData = canvas.toDataURL('image/png');
+        const pdf = new jsPDF('landscape', 'px', [canvas.width, canvas.height]);
+        pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+        pdf.save('layout.pdf');
+    };
+        
     return (
         <div className="layoutColors">
             <div className="headerlayoutColors">
@@ -26,14 +41,14 @@ function Home(){
             </div>
             <div className="smallBrowseruser">
                 <div className="layoutArrow"></div>
-                <div className="browserUser">
+                <div className="browserUser" ref={browserBodyRef}>
                     <BrowserHeader/>
                     <BrowserBody/>
                 </div>
                 <div className="layoutArrow"></div>
             </div>
             <div className="download">
-                <button className="downloadBrowser">DOWNLOAD</button>
+                <button className="downloadBrowser" onClick={downloadPDF} >DOWNLOAD</button>
             </div>
         </div>
     )
