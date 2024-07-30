@@ -16,3 +16,18 @@
     height: 480px;
     border: 6px solid var(--primeira-cor);
 }
+
+@media (max-width: 780px) {
+    .browserBody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        border-radius:0px 0px 20px 20px;
+        width: 900px;
+        height: 480px;
+        border: 6px solid var(--primeira-cor);
+    }
+  }
