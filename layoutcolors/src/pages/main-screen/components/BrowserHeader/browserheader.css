@@ -19,6 +19,7 @@
     border-left: 6px solid var(--primeira-cor);
 }
 
+
 #nameSiteUser{
     width: 350px;
     height: 24px;
@@ -30,3 +31,15 @@
     color: var(--primeira-cor);
     font-weight: 600;
 }
+
+@media (max-width: 980px) {
+    .browserHeader{
+        background-color: rgb(255, 255, 255);
+        border-radius:20px 20px 0px 0px;
+        width: 800px;
+        height: 40px;
+        border-top: 6px solid var(--primeira-cor);
+        border-right: 6px solid var(--primeira-cor);
+        border-left: 6px solid var(--primeira-cor);
+    }
+  }
