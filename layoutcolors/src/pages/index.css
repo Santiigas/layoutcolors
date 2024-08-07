@@ -34,7 +34,7 @@ body{
 /*Sessão layoutColors ------------------ */
 
 .layoutColors{
-    padding-top: 30px;
+    padding-top: 15px;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -54,7 +54,7 @@ body{
 #subtitle_layoutColors{
     font-weight: 700;
     font-size:20px;
-    padding-bottom: 3cap;
+    padding-bottom: 20px;
     color: var(--primeira-cor);
 }
 
@@ -117,5 +117,17 @@ body{
     font-weight: 800;
     font-size: 20px;
     background-color: var(--segunda-cor-texto);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.downloadBrowser:hover{
+    width: 230px;
+    height: 45px;
+    color: var(--terceira-cor);
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 23px;
+    background-color: #56b4a5;
     cursor: pointer;
 }

@@ -29,6 +29,7 @@ const ColorPicker = ({ title, colorKey }) => {
           value={color}
           onChange={handleColorChange}
           placeholder="#000000"
+          maxLength={10}
         />
       </div>
     </div>
