@@ -1,8 +1,8 @@
-.layout1 {
+#layout1 {
     background-color: var(--color-primary);
     color: var(--color-secondary);
   }
   
-  .layout1 h1 {
-    color: var(--color-highlight);
-  }
+.layout1 h1 {
+  color: var(--color-highlight);
+}

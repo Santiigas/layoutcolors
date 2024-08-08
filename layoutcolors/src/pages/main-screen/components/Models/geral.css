@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.layout{
+    width: 800px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    margin: auto;
+}
+  

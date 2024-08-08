@@ -1,7 +1,7 @@
 button{
     position: 'absolute';
-    top: '50%'; 
+    top: '70%'; 
     left: '0';
     transform: translateY(-50%);
-    background-color: aqua;
+    background-color: #F4FBF4;;
 }
