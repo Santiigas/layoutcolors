@@ -14,9 +14,9 @@
     border-radius:20px 20px 0px 0px;
     width: 900px;
     height: 40px;
-    border-top: 6px solid var(--primeira-cor);
-    border-right: 6px solid var(--primeira-cor);
-    border-left: 6px solid var(--primeira-cor);
+    border-top: 6px solid var(--color-primary);
+    border-right: 6px solid var(--color-primary);
+    border-left: 6px solid var(--color-primary);
 }
 
 
@@ -28,7 +28,7 @@
     text-align: center;
     border: none;
     background-color: none;
-    color: var(--primeira-cor);
+    color: var(--color-primary);
     font-weight: 600;
 }
 
@@ -38,8 +38,8 @@
         border-radius:20px 20px 0px 0px;
         width: 800px;
         height: 40px;
-        border-top: 6px solid var(--primeira-cor);
-        border-right: 6px solid var(--primeira-cor);
-        border-left: 6px solid var(--primeira-cor);
+        border-top: 6px solid var(--color-primary);
+        border-right: 6px solid var(--color-primary);
+        border-left: 6px solid var(--color-primary);
     }
   }

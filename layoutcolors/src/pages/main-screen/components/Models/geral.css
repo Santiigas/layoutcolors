@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
 .layout{
-    width: 800px;
+    width: 900px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
     margin: auto;
 }
+
+@media (max-width: 980px) {
+    .layout{
+        width: 800px;
+    }
+  }
   

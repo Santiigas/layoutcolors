@@ -14,7 +14,7 @@
     border-radius:0px 0px 20px 20px;
     width: 900px;
     height: 480px;
-    border: 6px solid var(--primeira-cor);
+    border: 6px solid var(--color-primary);
 }
 /*Mobile versão ---------------------------------------*/
 

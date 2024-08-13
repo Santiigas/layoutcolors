@@ -5,8 +5,29 @@ import "./layout1.css"
 const Layout1 = () => {
   return (
     <div className="layout" id="layout1">
-      <h1>Layout 1</h1>
-      <p>Este é o primeiro layout.</p>
+        <header>
+          <div className="navbar"></div>
+          <div className="box"></div>
+          <div className="box"></div>
+        </header>
+        <div className="menus">
+          <div className="option">Option</div>
+          <div className="option">Option</div>
+          <div className="option">Option</div>
+          <div className="option">Option</div>
+          <div className="option">Option</div>
+          <div className="option">Option</div>
+        </div>
+        <div className="slide">
+
+        </div>
+        <div className="products">
+          <div className="product"></div>
+          <div className="product"></div>
+          <div className="product"></div>
+          <div className="product"></div>
+          <div className="product"></div>
+        </div>
     </div>
   );
 };
