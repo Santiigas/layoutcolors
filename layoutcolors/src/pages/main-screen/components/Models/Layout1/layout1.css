@@ -1,10 +1,6 @@
 #layout1 {
     gap: 8px;
   }
-  
-.layout1 h1 {
-  color: var(--color-highlight);
-}
 
 header{
   display: flex;
@@ -27,6 +23,13 @@ header{
 .box{
   width: 30px;
   height: 30px;
+  border-radius: 10px;
+  background-color: var(--color-secondary);
+}
+
+.logo{
+  width: 70px;
+  height: 40px;
   border-radius: 10px;
   background-color: var(--color-secondary);
 }
@@ -58,6 +61,7 @@ header{
 .slide{
   width: 800px;
   height: 200px;
+  border-radius: 5px;
   background-color: var(--color-primary)
 }
 
