@@ -1,4 +1,5 @@
 #layout2 {
+  gap: 10px;
 }
 
 .header_layout2{
@@ -19,10 +20,10 @@
   gap: 10px;
   width: 675px;
   height: 30px;
-  background-color: rgb(156, 156, 156);
 }
 
 .searchbar_layout2{
+  border-radius: 8px;
   width: 494px;
   height: 30px;
   background-color: rgb(255, 255, 255);
@@ -31,7 +32,8 @@
 .box_layout2{
   width: 35px;
   height: 30px;
-  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background-color: var(--color-highlight);
 }
 
 .navbar_layout2{
@@ -49,8 +51,62 @@
   flex-direction: row; 
   justify-content: center; 
   align-items:center;
+  border-radius: 8px;
   width: 100px;
   height: 25px;
   font-weight: 600;
-  background-color: rgb(255, 255, 255);
+  color: var(--color-primary);
+  background-color: var(--color-highlight);
+}
+
+.banner_layout2{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items:center;
+  border-radius: 8px;
+  width: 750px;
+  height: 120px;
+  background-color: rgb(138, 101, 101);
+}
+
+.slide_layout2{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items:center;
+  width: 750px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: var(--color-highlight);;
+}
+
+.group_product_layout2{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items:center;
+  gap: 15px;
+}
+
+.product_layout2{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items:center;
+  border-radius: 8px;
+  width: 125px;
+  height: 180px;
+  border: 2px solid var(--color-primary);
+}
+
+.announcement_layout2{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items:center;
+  border-radius: 8px;
+  width: 690px;
+  height: 44px;
+  background-color: rgb(138, 101, 101);
 }

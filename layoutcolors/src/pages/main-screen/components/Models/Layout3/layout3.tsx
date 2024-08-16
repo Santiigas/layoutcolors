@@ -1,10 +1,12 @@
 import React from "react";
+import "../../Models/geral.css";
+import "./layout3.css";
 
-const Layout3 = () => (
-    <div>
-      <h1>Layout 3</h1>
-      <p>Este é o terceiro layout.</p>
+const Layout3 = () => {
+  return (
+    <div className="layout" id="layout3">
     </div>
   );
+};
   
-  export default Layout3; 
+export default Layout3;

@@ -22,6 +22,17 @@ const Layout2 = () => {
           <div className="item_layout2">Opção</div>
         </div>
       </header>
+      <div className="banner_layout2"></div>
+      <div className="slide_layout2">
+        <div className="group_product_layout2">
+          <div className="product_layout2"></div>
+          <div className="product_layout2"></div>
+          <div className="product_layout2"></div>
+          <div className="product_layout2"></div>
+          <div className="product_layout2"></div>
+        </div>
+      </div>
+      <div className="announcement_layout2"></div>
     </div>
   );
 };
