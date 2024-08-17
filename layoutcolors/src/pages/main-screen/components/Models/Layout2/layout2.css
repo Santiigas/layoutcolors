@@ -67,7 +67,7 @@
   border-radius: 8px;
   width: 750px;
   height: 120px;
-  background-color: rgb(138, 101, 101);
+  background-color: var(--color-secondary);
 }
 
 .slide_layout2{
@@ -78,7 +78,7 @@
   width: 750px;
   height: 200px;
   border-radius: 15px;
-  background-color: var(--color-highlight);;
+  background-color: var(--color-highlight);
 }
 
 .group_product_layout2{
@@ -108,5 +108,5 @@
   border-radius: 8px;
   width: 690px;
   height: 44px;
-  background-color: rgb(138, 101, 101);
+  background-color: var(--color-secondary);
 }
