@@ -21,6 +21,28 @@ const Layout3 = () => {
         <div className="option_layout3">Opção</div>
         <div className="option_layout3">Opção</div>
       </header>
+      <div className="slide1_layout3">
+        <div className="option2_layout3"></div>
+        <div className="option2_layout3"></div>
+        <div className="option2_layout3"></div>
+        <div className="option2_layout3"></div>
+        <div className="option2_layout3"></div>
+      </div>
+      <div className="slide2_layout3">
+        <div className="product_layout3">
+          <div className="product_offer_layout3"></div>
+        </div>
+        <div className="product_layout3">
+          <div className="product_offer_layout3"></div>
+        </div>
+        <div className="product_layout3">
+          <div className="product_offer_layout3"></div>
+        </div>
+        <div className="product_layout3">
+          <div className="product_offer_layout3"></div>
+        </div>
+      </div>
+      <div className="slide3_layout3"></div>
     </div>
   );
 };
