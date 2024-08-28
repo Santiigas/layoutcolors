@@ -19,13 +19,13 @@
     width: 75px;
     height: 33px;
     border-radius: 20px;
-    background-color: rgb(201, 166, 120);
+    background-color: var(--color-primary);
 }
 
 .header_layout7 > h2{
     font-weight: 800;
     font-size: 15px;
-    color: rgb(201, 166, 120);
+    color: var(--color-primary);
 }
 
 .header_layout7 > h2{
@@ -54,7 +54,7 @@
     font-size: 18px;
     border-radius: 10px;
     color: azure;
-    background-color: rgb(201, 166, 120);
+    background-color: var(--color-primary);
 }
 
 .header_layout7 > .boxes_layout7 > .box2_layout7{
@@ -69,7 +69,7 @@
     font-size: 18px;
     border-radius: 10px;
     color: azure;
-    background-color: rgb(201, 166, 120);
+    background-color: var(--color-primary);
 }
 
 
@@ -81,7 +81,7 @@
     width: 900px;
     height: 390px;
     gap: 20px;
-    background-color: rgb(209, 205, 199);
+    background-image: linear-gradient(-330deg, var(--color-primary), var(--color-secondary));
 }
 
 
@@ -96,14 +96,26 @@
 
 .body_layout7 > .part1_layout7 > .block1_layout7{
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center; 
     align-items:center;
     width: 340px;
     height: 270px;
-    gap: 40px;
-    background-color: rgb(165, 138, 98);
+    gap: 10px;
 }
+
+.body_layout7 > .part1_layout7 > .block1_layout7 > h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--color-highlight);
+}
+
+.body_layout7 > .part1_layout7 > .block1_layout7 > h2{
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--color-highlight);
+}
+
 
 .body_layout7 > .part1_layout7 > .block2_layout7{
     display: flex;
@@ -113,21 +125,21 @@
     width: 300px;
     height: 270px;
     gap: 40px;
-    background-color: rgb(165, 138, 98);
 }
 
 .body_layout7  > .part2_layout7{
     display: flex;
-    flex-direction: column; 
+    flex-direction: row; 
     justify-content: center; 
     align-items:center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .body_layout7  > .part2_layout7 > .search_bar_layout7{
-    width: 700px;
+    border-radius: 20px;
+    width: 130px;
     height: 40px;
-    background-color: aliceblue;
+    border: 3px solid var(--color-highlight);
 }
 
 

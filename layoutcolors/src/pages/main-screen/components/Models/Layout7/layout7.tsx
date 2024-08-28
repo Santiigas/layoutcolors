@@ -17,10 +17,18 @@ const Layout7 = () => {
       </div>
       <body className="body_layout7">
         <div className="part1_layout7">
-          <div className="block1_layout7"></div>
+          <div className="block1_layout7">
+            <h1>GERADOR DE PALHETA DE CORES</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur 
+              adipisicing elit. Fugiat debitis sunt delectus 
+              adipisci id modi dolores cupiditate sit. 
+              Sint maxime reiciendis, nobis error corrupti ullam vero autem labore mollitia iste?</h2>
+          </div>
           <div className="block2_layout7"></div>
         </div>
         <div className="part2_layout7">
+          <div className="search_bar_layout7"></div>
+          <div className="search_bar_layout7"></div>
           <div className="search_bar_layout7"></div>
         </div>
       </body>
