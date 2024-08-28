@@ -1,0 +1,133 @@
+#layout7 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+}
+
+.header_layout7{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    width: 900px;
+    height: 70px;
+    gap: 40px;
+}
+
+.header_layout7 > .logo_layout7{
+    width: 75px;
+    height: 33px;
+    border-radius: 20px;
+    background-color: rgb(201, 166, 120);
+}
+
+.header_layout7 > h2{
+    font-weight: 800;
+    font-size: 15px;
+    color: rgb(201, 166, 120);
+}
+
+.header_layout7 > h2{
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.header_layout7 > .boxes_layout7{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.header_layout7 > .boxes_layout7 > .box1_layout7{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    width: 80px;
+    height: 32px;
+    gap: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    color: azure;
+    background-color: rgb(201, 166, 120);
+}
+
+.header_layout7 > .boxes_layout7 > .box2_layout7{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    width: 130px;
+    height: 32px;
+    gap: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    color: azure;
+    background-color: rgb(201, 166, 120);
+}
+
+
+.body_layout7{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    width: 900px;
+    height: 390px;
+    gap: 20px;
+    background-color: rgb(209, 205, 199);
+}
+
+
+.body_layout7  > .part1_layout7{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    gap: 10px;
+}
+
+
+.body_layout7 > .part1_layout7 > .block1_layout7{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    width: 340px;
+    height: 270px;
+    gap: 40px;
+    background-color: rgb(165, 138, 98);
+}
+
+.body_layout7 > .part1_layout7 > .block2_layout7{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    width: 300px;
+    height: 270px;
+    gap: 40px;
+    background-color: rgb(165, 138, 98);
+}
+
+.body_layout7  > .part2_layout7{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    gap: 10px;
+}
+
+.body_layout7  > .part2_layout7 > .search_bar_layout7{
+    width: 700px;
+    height: 40px;
+    background-color: aliceblue;
+}
+
+
