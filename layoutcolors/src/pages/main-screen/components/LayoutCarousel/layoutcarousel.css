@@ -5,3 +5,22 @@ button{
     transform: translateY(-50%);
     background-color: #F4FBF4;;
 }
+
+.layoutCarousel{
+    width: 1020px;
+    height: 480px;
+    border: 1px;
+    position: absolute;
+}
+
+.carrousel{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 980px) {
+    .layoutCarousel{
+        width: 920px;
+        height: 480px;
+    }
+  }

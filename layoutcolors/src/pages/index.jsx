@@ -39,13 +39,14 @@ const Home = () => {
                 </ColorProvider>
                 </div>
             </div>
-            <div className="smallBrowseruser">
-                <div className="layoutArrow"></div>
-                <div className="browserUser" ref={browserBodyRef}>
+            <div className="smallBrowseruser" ref={browserBodyRef}>
+                <div className="browserUser">
                     <BrowserHeader/>
                     <BrowserBody/>
                 </div>
-                <div className="layoutArrow"></div>
+                <h1 className='credits'>Modelo de site e cores desenvolvido
+                    layoutColors
+                </h1>
             </div>
             <div className="download">
                 <button className="downloadBrowser" onClick={downloadPDF} >DOWNLOAD</button>

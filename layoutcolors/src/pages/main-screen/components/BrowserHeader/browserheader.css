@@ -6,8 +6,8 @@
 
 .browserHeader{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     margin: auto;
     background-color: rgb(255, 255, 255);
@@ -17,6 +17,37 @@
     border-top: 6px solid var(--color-primary);
     border-right: 6px solid var(--color-primary);
     border-left: 6px solid var(--color-primary);
+    gap: 190px;
+}
+
+.colors{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.primary_color{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: var(--color-primary);
+}
+
+.secondary_color{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: var(--color-secondary);
+}
+
+.highlight_color{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: var(--color-highlight);
 }
 
 
@@ -24,12 +55,11 @@
     width: 350px;
     height: 24px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     border: none;
     background-color: none;
     color: var(--color-primary);
-    font-weight: 600;
 }
 
 @media (max-width: 980px) {

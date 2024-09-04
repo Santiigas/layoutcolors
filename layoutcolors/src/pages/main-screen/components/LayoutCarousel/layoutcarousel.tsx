@@ -6,7 +6,6 @@ import Layout4 from '../Models/Layout4/layout4';
 import Layout5 from '../Models/Layout5/layout5';
 import Layout6 from '../Models/Layout6/layout6';
 import Layout7 from '../Models/Layout7/layout7';
-
 import "./layoutcarousel.css"
 import setaesquerda from "./images/setaleft.png"
 import setadireita from "./images/setaright.png"
@@ -26,13 +25,14 @@ const LayoutCarousel = () => {
   };
 
   return (
-    <div style={{ width: '1020px', height: '480px', border: '1px', position: 'absolute' }}>
+    <div className='layoutCarousel'>
       <button onClick={handlePrev} style={{ position: 'absolute', top: '50%', left: '-0px', transform: 'translateY(-50%)' }}> 
       <img src={setaesquerda} alt="" /></button>
-      <div style={{ width: '100%', height: '100%' }}>
+      <div className='carrousel'>
         {layouts[currentLayout]}
       </div>
-      <button onClick={handleNext} style={{ position: 'absolute', top: '50%', right: '0', transform: 'translateY(-50%)' }}><img src={setadireita} alt="" /></button>
+      <button onClick={handleNext} style={{ position: 'absolute', top: '50%', right: '0', transform: 'translateY(-50%)' }}>
+      <img src={setadireita} alt="" /></button>
     </div>
   );
 };
