@@ -12,11 +12,11 @@
     /*height: 100%;*/
 }
 
-body{
+body, html{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
+    height: 100vh;
     background-color: #F4FBF4;
 }
 
@@ -26,19 +26,18 @@ body{
     --segunda-cor-texto:#62C3B3;
     --terceira-cor:#F4FBF4;
     /*Cores dos layots*/
-    --color-primary: #754F5B;
-    --color-secondary: #7D6167;
-    --color-highlight: #F9E0D9;
+    --color-primary: #00AE9C;
+    --color-secondary: #62C3B3;
+    --color-highlight: #F4FBF4;
 }
 
 /*Sessão layoutColors ------------------ */
 
 .layoutColors{
-    padding-top: 15px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     margin: auto;
-    
 }
 
 .headerlayoutColors{
@@ -54,7 +53,7 @@ body{
 #subtitle_layoutColors{
     font-weight: 700;
     font-size:20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     color: var(--primeira-cor);
 }
 
@@ -73,13 +72,13 @@ body{
   }  
 
 .chosenColors{
-    padding-top: 7px;
+    padding-top: 3px;
     display: flex;
     align-items: center;
     flex-direction: row;
     height: auto;
     gap: 10px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
     padding-left: 30px;
   }
   
@@ -93,13 +92,7 @@ body{
     margin: auto;
 }
 
-.layoutArrow{
 
-}
-
-.browserUser{
-
-}
 
 .download{
     padding-top: 40px;
@@ -128,6 +121,5 @@ body{
     border-radius: 10px;
     font-weight: 800;
     font-size: 23px;
-    background-color: var(--color-secondary);
     cursor: pointer;
 }

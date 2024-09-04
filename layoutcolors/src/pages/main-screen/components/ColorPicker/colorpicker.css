@@ -11,11 +11,11 @@
   flex-direction: column;
   justify-content: center;
   height: auto;
-  gap: 10px;
+  gap: 1px;
 }
 
 #mainTitleColor{
-  font-weight: 800;
+  font-weight: 600;
   font-size:15px;
   color: var(--segunda-cor-texto)
 }
@@ -27,8 +27,8 @@
 }
 
 .colorPicker {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
   background: none;
 }
