@@ -7,6 +7,7 @@ import { ColorProvider } from './main-screen/components/ColorPicker/colorcontext
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import "./index.css";
+import logo from "../images/LogoLayoutCollors.png"
 
 const Home = () => {
     const browserBodyRef = useRef();
@@ -25,9 +26,12 @@ const Home = () => {
         
     return (
         <div className="layoutColors">
-            <div className="headerlayoutColors">
-                <h1 id="mainTitle_layoutColors">LayoutColors</h1>
-                <h2 id="subtitle_layoutColors">Construa seu loyout</h2>
+            <div className='header_layout_geral'>
+                <img className='logo_layout_colors' src={logo} alt="" />
+                <div className="headerlayoutColors">
+                    <h1 id="mainTitle_layoutColors">LayoutColors</h1>
+                    <h2 id="subtitle_layoutColors">Construa seu loyout</h2>
+                </div>
             </div>
             <div className="colorSettingUser">
                 <h1 id="subtitle_colorSettingUser">Selecione as cores:</h1>

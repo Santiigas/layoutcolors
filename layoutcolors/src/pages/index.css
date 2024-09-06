@@ -16,7 +16,6 @@ body, html{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-color: #F4FBF4;
 }
 
@@ -34,15 +33,31 @@ body, html{
 /*Sessão layoutColors ------------------ */
 
 .layoutColors{
-    padding-top: 10px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     margin: auto;
 }
 
+.header_layout_geral{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    height: auto;
+}
+
+.logo_layout_colors{
+    width: 96px;
+    padding-left: 50px;
+}
+
 
 .headerlayoutColors{
-    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 10px;
 }
 
 
