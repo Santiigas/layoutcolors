@@ -4,9 +4,9 @@ const ColorContext = createContext();
 
 export const ColorProvider = ({ children }) => {
   const [colors, setColors] = useState({
-    color1: '#754F5B',
-    color2: '#7D6167',
-    color3: '#F9E0D9',
+    color1: '#00AE9C',
+    color2: '#62C3B3',
+    color3: '#d6d6d6',
   });
 
   useEffect(() => {

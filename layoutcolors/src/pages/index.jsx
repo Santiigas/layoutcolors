@@ -8,6 +8,8 @@ import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import "./index.css";
 import logo from "../images/LogoLayoutCollors.png"
+import ScreenSizeWarning from './main-screen/components/ScreenSizeWarning/screensizewarning'
+
 
 const Home = () => {
     const browserBodyRef = useRef();
@@ -26,6 +28,7 @@ const Home = () => {
         
     return (
         <div className="layoutColors">
+            <ScreenSizeWarning/>
             <div className='header_layout_geral'>
                 <img className='logo_layout_colors' src={logo} alt="" />
                 <div className="headerlayoutColors">
