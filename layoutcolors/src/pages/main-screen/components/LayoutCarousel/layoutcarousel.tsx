@@ -6,11 +6,12 @@ import Layout4 from '../Models/Layout4/layout4';
 import Layout5 from '../Models/Layout5/layout5';
 import Layout6 from '../Models/Layout6/layout6';
 import Layout7 from '../Models/Layout7/layout7';
+import Layout8 from '../Models/Layout8/layout8';
 import "./layoutcarousel.css"
 import setaesquerda from "./images/setaleft.png"
 import setadireita from "./images/setaright.png"
 
-const layouts = [<Layout1 />, <Layout2 />, <Layout3 />, <Layout7 />, <Layout4 />, 
+const layouts = [<Layout1 />, <Layout2 />, <Layout3 />, <Layout7 />, <Layout8 />, <Layout4 />, 
 <Layout5 />, <Layout6 />];
 
 const LayoutCarousel = () => {

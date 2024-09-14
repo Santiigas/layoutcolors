@@ -51,8 +51,8 @@ const Home = () => {
                     <BrowserHeader/>
                     <BrowserBody/>
                 </div>
-                <h1 className='credits'>Modelo de site e cores desenvolvido
-                    layoutColors
+                <h1 className='credits'>Modelo desenvolvido pelo
+                    LayoutColors
                 </h1>
             </div>
             <div className="download">
