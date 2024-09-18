@@ -9,7 +9,7 @@ const BrowserHeader = () => {
                 <div className="secondary_color"></div>
                 <div className="highlight_color"></div>
             </div>
-            <input id="nameSiteUser" type="text" placeholder="www.layoutcolors.com.br" />
+            <input id="nameSiteUser" type="text" placeholder="www.seusite.com.br" />
         </div>
     )
 }

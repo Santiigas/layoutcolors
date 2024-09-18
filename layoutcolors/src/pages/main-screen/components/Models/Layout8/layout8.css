@@ -56,9 +56,8 @@ p{
     color: var(--color-highlight);
 }
 
-label{
+.label_text{
     font-weight: bold;
-    margin-bottom: 2px;
     color: var(--color-highlight);
 }
 

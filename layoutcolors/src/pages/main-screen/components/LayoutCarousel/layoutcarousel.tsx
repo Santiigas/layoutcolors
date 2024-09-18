@@ -2,18 +2,16 @@ import React, { useState } from 'react';
 import Layout1 from '../Models/Layout1/layout1';
 import Layout2 from '../Models/Layout2/layout2';
 import Layout3 from '../Models/Layout3/layout3';
-import Layout4 from '../Models/Layout4/layout4';
-import Layout5 from '../Models/Layout5/layout5';
-import Layout6 from '../Models/Layout6/layout6';
 import Layout7 from '../Models/Layout7/layout7';
 import Layout8 from '../Models/Layout8/layout8';
 import Layout9 from '../Models/Layout9/layout9';
+import Layout10 from '../Models/Layout10/layout10';
 import "./layoutcarousel.css"
 import setaesquerda from "./images/setaleft.png"
 import setadireita from "./images/setaright.png"
 
-const layouts = [<Layout1 />, <Layout2 />, <Layout3 />, <Layout7 />, 
-<Layout8 />, <Layout9 />, <Layout4 />, <Layout5 />, <Layout6 />];
+const layouts = [<Layout1 />, <Layout2 />, <Layout3 />, <Layout7 />, <Layout10 />,
+<Layout8 />, <Layout9 />,];
 
 const LayoutCarousel = () => {
   const [currentLayout, setCurrentLayout] = useState(0);

@@ -9,11 +9,11 @@ const Layout7 = () => {
         <div className="form">
           <h1>Login</h1>
           <div className="dados1">
-            <label htmlFor="">Email</label>
+            <label className="label_text" htmlFor="">Email</label>
             <input className="dados_entry" type="text"/>
           </div>
           <div className="dados1">
-            <label htmlFor="">Senha</label>
+            <label className="label_text" htmlFor="">Senha</label>
             <input className="dados_entry" type="text"/>
           </div>
           <div className="dados2">

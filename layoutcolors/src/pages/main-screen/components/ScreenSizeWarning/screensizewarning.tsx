@@ -63,7 +63,7 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'column',
-    gap: '30px',
+    gap: '26px',
     backgroundColor: '#fff',
     padding: '20px',
     borderRadius: '10px',
@@ -73,7 +73,7 @@ const styles = {
   },
   warningText:{
     fontSize: '20px',
-    fontWeight: '800',
+    fontWeight: '500',
     color: '#00AE9C',
   },
   closebutton:{
