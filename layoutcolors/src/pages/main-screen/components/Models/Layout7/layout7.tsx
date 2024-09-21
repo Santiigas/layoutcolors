@@ -18,7 +18,7 @@ const Layout7 = () => {
       <body className="body_layout7">
         <div className="part1_layout7">
           <div className="block1_layout7">
-            <h1>GERADOR DE PALHETA DE CORES</h1>
+            <h1>ESCOLHA SUA PALETA DE CORES</h1>
             <h2>Lorem ipsum dolor sit amet consectetur 
               adipisicing elit. Fugiat debitis sunt delectus 
               adipisci id modi dolores cupiditate sit. 

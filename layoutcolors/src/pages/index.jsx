@@ -51,8 +51,9 @@ const Home = () => {
                     <BrowserHeader/>
                     <BrowserBody/>
                 </div>
-                <h1 className='credits'>Modelo desenvolvido pelo
-                    LayoutColors
+                <h1 className='credits'>Modelo desenvolvido por
+                    LayoutColors - 2024 | Santiago Oliveira: @santiagosof@gmail.com - @santiagowebart
+
                 </h1>
             </div>
             <div className="download">
