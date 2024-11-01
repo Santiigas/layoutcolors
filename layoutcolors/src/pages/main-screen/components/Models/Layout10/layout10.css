@@ -11,7 +11,7 @@
     justify-content: center; 
     align-items:center;
     border-radius: 20px;
-    width: 700px;
+    width: 600px;
     height: 60px;
     gap: 30px;
     background-color: var(--color-highlight);
@@ -138,9 +138,16 @@
 }
 
 .body_layout10  > .part2_layout10 > .search_bar_layout10{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
     border-radius: 6px;
     width: 130px;
     height: 40px;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--color-highlight);
     background-color:  var(--color-secondary);
 }
 

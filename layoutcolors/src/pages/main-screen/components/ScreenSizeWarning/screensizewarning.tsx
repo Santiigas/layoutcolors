@@ -12,7 +12,7 @@ const ScreenSizeWarning = () => {
     const hasSeenWarning = sessionStorage.getItem('hasSeenWarning'); // Verifica se o usuário já viu o aviso
 
     const checkScreenSize = () => {
-      if (window.innerWidth < 768 && !hasSeenWarning) {
+      if (window.innerWidth < 940 && !hasSeenWarning) {
         // Se for uma tela pequena e o usuário não viu o aviso ainda, exibe o aviso
         setShowWarning(true);
       }

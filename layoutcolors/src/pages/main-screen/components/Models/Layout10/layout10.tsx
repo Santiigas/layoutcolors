@@ -13,13 +13,12 @@ const Layout7 = () => {
           <h2>Opcão</h2>
           <h2>Opcão</h2>
           <div className="boxes_layout10">
-            <div className="box1_layout10">Entre</div>
             <div className="box2_layout10">Cadastre-se</div>
           </div>
         </div>
         <div className="part1_layout10">
           <div className="block1_layout10">
-            <h1>GERADOR DE PALHETA DE CORES</h1>
+            <h1>MOSTRE SUAS IDEIAS COM O LAYOUTCOLORS</h1>
             <h2>Lorem ipsum dolor sit amet consectetur 
               adipisicing elit. Fugiat debitis sunt delectus 
               adipisci id modi dolores cupiditate sit. 
@@ -27,8 +26,8 @@ const Layout7 = () => {
           </div>
         </div>
         <div className="part2_layout10">
-          <div className="search_bar_layout10"></div>
-          <div className="search_bar_layout10"></div>
+          <div className="search_bar_layout10">ENTRAR</div>
+          <div className="search_bar_layout10">CONTATO</div>
         </div>
       </body>
     </div>
