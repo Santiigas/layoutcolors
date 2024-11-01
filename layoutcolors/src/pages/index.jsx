@@ -33,7 +33,7 @@ const Home = () => {
                 <img className='logo_layout_colors' src={logo} alt="" />
                 <div className="headerlayoutColors">
                     <h1 id="mainTitle_layoutColors">LayoutColors</h1>
-                    <h2 id="subtitle_layoutColors">Construa seu loyout</h2>
+                    <h2 id="subtitle_layoutColors">Construa seu layout</h2>
                 </div>
             </div>
             <div className="colorSettingUser">
